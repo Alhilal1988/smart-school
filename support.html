@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title> Support</title>
+     
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    
+    <center><img src="https://i.top4top.io/p_22423c7e51.png"  width="200" height="200" </center>
+
+</head>
+<body>
+  <div id="main">
+  <div id="header">
+  <div id="logo">
+  <div id="logo_text">
+               
+			   <table align="center">
+               <tr>
+                 <td width="15%" align=center><a href="index.html"> Home </a> </td>
+                 
+                 <td width="15%" align=center><a href="Policy.html"> Policies </a></td>
+                                 
+                 <td width="15%" align=center><a href="About.html"> About </a></td>
+                 
+                 <td width="15%" align=center><a href="ContactsUs.html"> Contacts Us </a></td>
+                                 
+                 <td width="15%" align=center><a href="Register.html"> Register </a></td>
+
+                 <td width="15%" align=center><a href="Login.html"> sign in </a></td>
+                 
+                </tr>
+              </table>
+  
+  
+  <h1> <span class="logo_colour"> Do you need support </span></a></h1>
+  
+ 
+	
+    <div id="content_support">
+ 
+    <h2> Available every day of the week except Friday and Saturday </h2>
+	<h2> From 9 am to 4 pm </h2>
+              
+		<div id="content"> 
+        <form action="support.php" name="Form1" method="POST" onsubmit="return (validateForm());">
+        <table width="558" border="0" >
+        <tr>
+        <td width="87" height="42">Name:</td>
+        <td width="461">
+		<input name="name" id="name" type="text"  rows="1" cols="20"  placeholder="Enter your name"/> *</td>
+        </tr>
+		<tr>
+        <td>E-Mail</td>
+        <td><input name="email" id="email" type="text" rows="1" cols="20"  placeholder="email@domain.com"> *</td>
+        </tr>
+	    <tr>
+		<td> Phone:</td>
+		<td><input name="Phone" id="number" type="number" rows="1" cols="20" placeholder="Enter your number"> *</td>
+		</tr>
+		<tr>
+		<br>
+		<td> Inquiries:</td>
+		<td><textarea id="text" name="message" rows="3" cols="40" placeholder="Enter your message"></textarea>* </td>
+		</tr>
+	    <tr>
+       
+        <td>&nbsp;</td>
+        <td><input   type="submit"  value="Send" />
+        <input  type="reset"   value="Reset"/></td>
+        </tr>
+        </table>
+	    </form>
+        </div>
+  
+  <script type="text/javascript">  
+		  function validateForm() { 
+			var name = document.forms["Form1"]["name"]; 
+			var email = document.forms["Form1"]["email"]; 
+			var Phone = document.forms["Form1"]["number"]; 
+			var Inquiries = document.forms["Form1"]["message"]; 
+			var out="";
+
+			if (name.value == "") { 
+				out='Name must filled out!.';
+			} 
+			if (email.value == "") {  
+				out=out+'\nEMail Name must filled out!.';
+			} 
+			if (Phone.value == "") {  
+				out=out+'\Phone number must filled out!.';
+			} 
+			if (Inquiries.value == "") { 
+				out=out+'\nMessage must filled out!';
+			} 
+			if(out=="")
+			{
+			    return true; 
+			}
+			else
+			{
+				name.focus(); 
+				window.alert(out);
+				return false;
+			}
+			
+		} 
+	</script> 	 
+                
+</body>
+ <div id="content_footer"></div>
+    <div id="footer">
+    <p><a href="index.html">Home</a> | <a href="Policy.html"> Policies</a> 
+    | <a href="About.html"> About</a> | <a href="ContactsUs.html">Contact Us</a> 
+    | <a href="Register.html">Register</a>| <a href="login.html">signIn</a>
+    <p>Copyright &copy;2022 </p>  
+    </div>
+
+    </div>
+</html>

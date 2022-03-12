@@ -1,0 +1,111 @@
+body {
+    font-family:Times New Roman;
+    font-size:20px;
+    font-weight:bold;
+    color: rgb(95, 89, 39);
+    background: #F2F1EF;
+}
+a { 
+    text-decoration: none; 
+	color: #4e2020; 
+	font-size: 1em; 
+	padding: 1px 2px; 
+	
+}
+
+a:hover 
+{ 
+   background-color: #e3f6f5; 
+}
+
+p {
+   color:rgb(161, 136, 127);
+   font-family:Times New Roman;
+   font-size: 25px;
+   font-weight: 300;
+}
+
+h1 {
+   color:#11abab;
+   text-align: center; 
+   font-family:  Times New Roman;
+   font-size: 43px;    
+}
+
+
+h2 {
+   color: rgb(70, 29, 29);
+   font-family:  Times New Roman;
+   font-size: 38px;
+   text-align: center; 
+}
+
+h3 {
+   color:#EE8679;
+   text-align: center; 
+   font-family:  Times New Roman bold;
+   font-size: 25px;    
+}
+
+br {
+   color:#11abab;
+   text-align: right; 
+   font-family:  Times New Roman;
+   font-size: 43px;    
+}
+
+#header 
+{ background-color:#F2F1EF;
+  background-image:url(images/header.jpg);
+  padding:30px;
+  height:30%;
+}
+    
+#content 
+{ background-color:#fafafa;
+  padding:20px;
+  height:60%;
+}
+
+table 
+{ border-collapse: collapse;
+  background-color:#34a3a3;
+  font-size: 30px;
+  font-family: Times New Roman;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  color:#fafaff;
+}
+
+td
+{
+  padding-left:60px;
+}
+
+
+  
+  #footer p
+{ text-align: center;
+  font-size: 35px; 
+  font-family: Times New Roman;
+  line-height: 1.7em;
+  padding: 0 0 10px 0;
+  } 
+ 
+ 
+  #support p
+{ text-align: right; 
+  line-height: 1.7em;
+  padding: 0 0 10px 0;}
+  
+
+
+   #content_support p
+{ text-align: center; 
+  line-height: 1.7em;
+  padding: 0 0 10px 0;}
+  
+   #content_Register br
+{ text-align: right-side; 
+  line-height: 1.7em;
+  padding: 0 0 10px 0;}
+  
